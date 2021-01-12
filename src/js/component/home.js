@@ -40,9 +40,11 @@ export function Home() {
 			<div className="mlk">
 				<img src={MLK} />
 			</div>
-			<div className="bubble">
-				<img src="https://www.clker.com/cliparts/U/8/k/x/W/9/cartoon-speech-bubble-md.png" />
-			</div>
+
+			<img
+				className="bubble"
+				src="https://www.clker.com/cliparts/U/8/k/x/W/9/cartoon-speech-bubble-md.png"
+			/>
 		</>
 	);
 }
