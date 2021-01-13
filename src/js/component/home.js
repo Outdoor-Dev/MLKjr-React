@@ -1,6 +1,7 @@
 import React from "react";
 import { Peace } from "./Peace.js";
 import { Line } from "./Line.js";
+import { Quotes } from "./Quotes.js";
 
 //include images into your bundle
 
@@ -45,6 +46,7 @@ export function Home() {
 				className="bubble"
 				src="https://www.clker.com/cliparts/U/8/k/x/W/9/cartoon-speech-bubble-md.png"
 			/>
+			<Quotes />
 		</>
 	);
 }
