@@ -11,7 +11,9 @@ const words = {
 };
 
 export const Quotes = () => {
-	const [quote, setQuote] = useState("");
+	const [quote, setQuote] = useState(
+		"The time is always right to do what is right."
+	);
 	useEffect(
 		() => {
 			setTimeout(() => {
@@ -25,6 +27,8 @@ export const Quotes = () => {
 					setQuote(words.quote4);
 				} else if (quote === words.quote4) {
 					setQuote(words.quote5);
+				} else if (quote === words.quote5) {
+					setQuote(words.quote1);
 				}
 			}, 3000);
 		},
