@@ -4,16 +4,11 @@ import { Quotes } from "./Quotes.js";
 //include images into your bundle
 
 import MLK from "../../img/MLK.png";
-import peace from "../../img/peace.png";
-import line from "../../img/line.png";
 
 //create your first component
 export function Home() {
 	return (
 		<>
-			<img className="peace1" src={peace} />
-			<img className="line1" src={line} />
-
 			<div className="mlk">
 				<img src={MLK} />
 			</div>
