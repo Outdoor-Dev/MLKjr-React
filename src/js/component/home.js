@@ -1,6 +1,4 @@
 import React from "react";
-import { Peace } from "./Peace.js";
-import { Line } from "./Line.js";
 import { Quotes } from "./Quotes.js";
 
 //include images into your bundle
@@ -13,31 +11,9 @@ import line from "../../img/line.png";
 export function Home() {
 	return (
 		<>
-			<div className="peace1">
-				<Peace />
-				<Peace />
-			</div>
-			<div className="peace2">
-				<Peace />
-				<Peace />
-			</div>
-			<div className="peace3">
-				<Peace />
-				<Peace />
-			</div>
+			<img className="peace1" src={peace} />
+			<img className="line1" src={line} />
 
-			<div className="line1">
-				<Line />
-				<Line />
-			</div>
-			<div className="line2">
-				<Line />
-				<Line />
-			</div>
-			<div className="line3">
-				<Line />
-				<Line />
-			</div>
 			<div className="mlk">
 				<img src={MLK} />
 			</div>
