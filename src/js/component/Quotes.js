@@ -11,22 +11,30 @@ const words = {
 	quote2: [
 		"Injustice anywhere",
 		<br />,
-		"is a threat to justice everywhere."
+		"is a threat to ",
+		<br />,
+		"justice everywhere."
 	],
 	quote3: [
-		"Lives begin to end the day we become silent ",
+		"Lives begin to end the day ",
+		<br />,
+		"we become silent ",
 		<br />,
 		"about things that matter."
 	],
 	quote4: [
-		"I have decided to stick with love.",
+		"I have decided to ",
 		<br />,
-		"Hate is too great a burden to bear."
+		"stick with love. Hate is too",
+		<br />,
+		"great a burden to bear."
 	],
 	quote5: [
-		"If I cannot do great things,",
+		"If I cannot do great",
 		<br />,
-		"I can do small things in a great way."
+		" things, I can do small things ",
+		<br />,
+		"in a great way."
 	]
 };
 
@@ -48,7 +56,7 @@ export const Quotes = () => {
 				} else if (quote === words.quote5) {
 					setQuote(words.quote1);
 				}
-			}, 3000);
+			}, 4000);
 		},
 		[quote]
 	);

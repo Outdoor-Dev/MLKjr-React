@@ -1,12 +1,7 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 
-body{
 
-    background-color:rgb(24, 23, 23);
-    height:100vh;
-    width:100%;
-}
 p{
     color:black;
     font-size:20px;
@@ -22,20 +17,29 @@ p{
 .bubble{
 
   height:600px;
-  width:900px;
+  width:850px;
    margin-top:-850px;
    margin-left:600px;
 
 }
 
 .quote-paragraph{
+    color:rgb(43, 41, 41);
     font-family: 'Bangers', cursive;
-    margin-top:-600px;
-    margin-left:660px;
+    margin-top:-640px;
+    margin-left:630px;
    text-align:center;
-    font-size:47px;
-    font-weight: 700;
+    font-size:53px;
+    font-weight: 400;
     letter-spacing:2px;
 }
 
-  
+  .video{
+   
+    object-fit:cover;
+    height:100%;
+    margin-top:-100px;
+    width:100%;
+    position:absolute;
+    z-index:-30;
+}
